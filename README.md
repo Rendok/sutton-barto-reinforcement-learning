@@ -13,6 +13,26 @@ SARSA algorithm implementation for the Windy Gridworld problem. Learns to naviga
 ### Racetrack (`racetrack.py`)
 Off-policy Monte Carlo control for the racetrack problem. Learns to navigate a racetrack from start to finish using weighted importance sampling.
 
+## Setup
+
+Create a virtual environment:
+
+```bash
+python -m venv venv
+```
+
+Activate the virtual environment:
+
+```bash
+source venv/bin/activate
+```
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
 ## Requirements
 
 - numpy
